@@ -1,13 +1,17 @@
 {
 	"nodes":[
-		{"id":"39df55140cf989e2","type":"text","text":"# 发如雪","x":-440,"y":-77,"width":140,"height":60,"color":"3"},
-		{"id":"fe4a358530e1495f","type":"text","text":"#  对不起","x":-361,"y":131,"width":141,"height":69,"color":"1"},
-		{"id":"1e4d78099929d915","type":"text","text":"#  Jay Chou","x":-120,"y":-260,"width":180,"height":60},
-		{"id":"578b4cd79766da7b","type":"text","text":"# 告白气球","x":320,"y":-320,"width":166,"height":60,"color":"4"}
+		{"id":"39df55140cf989e2","type":"text","text":"# 发如雪","x":-80,"y":63,"width":140,"height":60,"color":"3"},
+		{"id":"1e4d78099929d915","type":"text","text":"\n#  Jay\n# Chou","x":241,"y":-150,"width":119,"height":110,"color":"#9900ff"},
+		{"id":"578b4cd79766da7b","type":"text","text":"# 告白气球","x":680,"y":-180,"width":166,"height":60,"color":"4"},
+		{"id":"0d7c74bd83fee0cd","type":"text","text":"# 青花瓷","x":40,"y":-440,"width":142,"height":60,"color":"5"},
+		{"id":"7959c5b3fbecc23b","type":"text","text":"# 千里之外","x":500,"y":93,"width":162,"height":60,"color":"6"},
+		{"id":"fe4a358530e1495f","type":"text","text":"#  对不起","x":170,"y":180,"width":141,"height":69,"color":"1"}
 	],
 	"edges":[
 		{"id":"b3006ca632ac1f94","fromNode":"1e4d78099929d915","fromSide":"bottom","toNode":"39df55140cf989e2","toSide":"top"},
 		{"id":"57f74b2f8d508dc9","fromNode":"1e4d78099929d915","fromSide":"bottom","toNode":"fe4a358530e1495f","toSide":"top"},
-		{"id":"96a477b3856f08fe","fromNode":"1e4d78099929d915","fromSide":"top","toNode":"578b4cd79766da7b","toSide":"left"}
+		{"id":"96a477b3856f08fe","fromNode":"1e4d78099929d915","fromSide":"top","toNode":"578b4cd79766da7b","toSide":"left"},
+		{"id":"878215cc22798ab1","fromNode":"1e4d78099929d915","fromSide":"top","toNode":"0d7c74bd83fee0cd","toSide":"bottom"},
+		{"id":"a61bbd03ebdbba17","fromNode":"1e4d78099929d915","fromSide":"right","toNode":"7959c5b3fbecc23b","toSide":"top"}
 	]
 }
