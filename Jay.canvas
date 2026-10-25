@@ -1,10 +1,9 @@
 {
 	"nodes":[
-		{"id":"7b56a4f5aba19839","x":300,"y":-460,"width":220,"height":440,"type":"group","label":"Disk"},
 		{"id":"39df55140cf989e2","type":"text","text":"# 发如雪","x":-440,"y":-77,"width":140,"height":60,"color":"3"},
 		{"id":"fe4a358530e1495f","type":"text","text":"#  对不起","x":-361,"y":131,"width":141,"height":69,"color":"1"},
 		{"id":"1e4d78099929d915","type":"text","text":"#  Jay Chou","x":-120,"y":-260,"width":180,"height":60},
-		{"id":"578b4cd79766da7b","type":"text","text":"# 告白气球","x":320,"y":-300,"width":166,"height":60,"color":"4"}
+		{"id":"578b4cd79766da7b","type":"text","text":"# 告白气球","x":320,"y":-320,"width":166,"height":60,"color":"4"}
 	],
 	"edges":[
 		{"id":"b3006ca632ac1f94","fromNode":"1e4d78099929d915","fromSide":"bottom","toNode":"39df55140cf989e2","toSide":"top"},
