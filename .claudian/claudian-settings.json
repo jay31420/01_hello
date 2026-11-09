@@ -63,7 +63,9 @@
       "cliPath": "",
       "cliPathsByHost": {},
       "modelAliases": {},
-      "visibleModels": [],
+      "visibleModels": [
+        "deepseek-flash"
+      ],
       "enableUltraEffort": false,
       "responseStyle": "pragmatic",
       "responseVerbosity": "default",
@@ -73,7 +75,35 @@
       "sessionEnvironmentHash": "runtime-input:v1:cf4a613a63a895356fbc95544817979656506c93b9fb3fe1c76833522e1c19fc",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
-      "selectedModels": []
+      "selectedModels": [
+        {
+          "model": "deepseek-flash",
+          "displayName": "DeepSeek V4.1 Flash",
+          "description": "Latest frontier agentic coding model with image input.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": true
+        }
+      ]
     },
     "deepseek": {
       "installationMethodsByHost": {},
