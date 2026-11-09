@@ -1,9 +1,0 @@
-{
-	"nodes":[
-		{"id":"1107c2bb3d52629f","x":-120,"y":-140,"width":200,"height":60,"color":"1","type":"text","text":"# Python基础"},
-		{"id":"c8f60926c42d6f3a","x":0,"y":-580,"width":400,"height":260,"type":"file","file":"Python/一.Python基础语法.md"}
-	],
-	"edges":[
-		{"id":"d1437c69cc868e01","fromNode":"1107c2bb3d52629f","fromSide":"top","toNode":"c8f60926c42d6f3a","toSide":"bottom"}
-	]
-}
