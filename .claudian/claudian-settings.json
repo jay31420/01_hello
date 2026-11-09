@@ -39,7 +39,13 @@
       "enabled": true,
       "outputStyle": null,
       "promptSuggestions": false,
-      "discoveredOutputStyles": [],
+      "discoveredOutputStyles": [
+        "default",
+        "Proactive",
+        "Concise",
+        "Explanatory",
+        "Learning"
+      ],
       "cliPath": "",
       "cliPathsByHost": {},
       "loadUserSettings": true,
@@ -52,7 +58,7 @@
       "selectedModels": []
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
