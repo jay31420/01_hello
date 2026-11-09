@@ -60,6 +60,61 @@
           "isDefault": false
         }
       ],
+      "discoveredModels": [
+        {
+          "model": "deepseek-flash",
+          "displayName": "DeepSeek V4.1 Flash",
+          "description": "Latest frontier agentic coding model with image input.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": true
+        },
+        {
+          "model": "deepseek-v4-pro",
+          "displayName": "DeepSeek V4 Pro",
+          "description": "Most capable frontier agentic coding model.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            }
+          ],
+          "defaultReasoningEffort": "high",
+          "serviceTiers": [],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text"
+          ],
+          "isDefault": false
+        }
+      ],
       "modelAliases": {},
       "visibleModels": [
         "deepseek-flash",
@@ -72,7 +127,7 @@
       "environmentVariables": "",
       "environmentHash": "",
       "sessionEnvironmentHash": "",
-      "catalogTimestamp": 0,
+      "catalogTimestamp": 1794237483396,
       "catalogFingerprint": "",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}

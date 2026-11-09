@@ -69,8 +69,8 @@
       "responseVerbosity": "default",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
-      "environmentHash": "",
-      "sessionEnvironmentHash": "",
+      "environmentHash": "runtime-input:v1:ed54f4f5238abeec7f65a5da1e468c9a639e157a7d1c7753b53f54ba1196e8a0",
+      "sessionEnvironmentHash": "runtime-input:v1:cf4a613a63a895356fbc95544817979656506c93b9fb3fe1c76833522e1c19fc",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {},
       "selectedModels": []
@@ -140,7 +140,8 @@
   "savedProviderEffort": {},
   "savedProviderServiceTier": {},
   "savedProviderPermissionMode": {
-    "claude": "auto"
+    "claude": "auto",
+    "codex": "auto-review"
   },
   "pendingProviderSessionInvalidations": {},
   "enableAutoScroll": true,
